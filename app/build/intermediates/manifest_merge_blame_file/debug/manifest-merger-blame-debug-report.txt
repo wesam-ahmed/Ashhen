@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ashhen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Ashhen\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Ashhen\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\Ashhen\app\src\main\AndroidManifest.xml:5:5-65
+11-->D:\Ashhen\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Ashhen\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\Ashhen\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->D:\Ashhen\app\src\main\AndroidManifest.xml:7:5-69
+13-->D:\Ashhen\app\src\main\AndroidManifest.xml:7:22-66
+14
+15    <application
+15-->D:\Ashhen\app\src\main\AndroidManifest.xml:9:5-35:19
+16        android:allowBackup="true"
+16-->D:\Ashhen\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\Ashhen\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->D:\Ashhen\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\Ashhen\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->D:\Ashhen\app\src\main\AndroidManifest.xml:14:9-35
+23        android:theme="@style/AppTheme" >
+23-->D:\Ashhen\app\src\main\AndroidManifest.xml:15:9-40
+24        <activity android:name="com.example.ashhen.splash" >
+24-->D:\Ashhen\app\src\main\AndroidManifest.xml:16:9-20:20
+24-->D:\Ashhen\app\src\main\AndroidManifest.xml:16:19-41
+25            <intent-filter>
+25-->D:\Ashhen\app\src\main\AndroidManifest.xml:16:42-19:25
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\Ashhen\app\src\main\AndroidManifest.xml:16:58-110
+26-->D:\Ashhen\app\src\main\AndroidManifest.xml:16:66-107
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\Ashhen\app\src\main\AndroidManifest.xml:18:13-73
+28-->D:\Ashhen\app\src\main\AndroidManifest.xml:18:23-70
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.ashhen.list_we" />
+31-->D:\Ashhen\app\src\main\AndroidManifest.xml:21:9-45
+31-->D:\Ashhen\app\src\main\AndroidManifest.xml:21:19-42
+32        <activity android:name="com.example.ashhen.list_vodafone" />
+32-->D:\Ashhen\app\src\main\AndroidManifest.xml:22:9-51
+32-->D:\Ashhen\app\src\main\AndroidManifest.xml:22:19-48
+33        <activity android:name="com.example.ashhen.list_orange" />
+33-->D:\Ashhen\app\src\main\AndroidManifest.xml:23:9-49
+33-->D:\Ashhen\app\src\main\AndroidManifest.xml:23:19-46
+34        <activity android:name="com.example.ashhen.list_etsalat" />
+34-->D:\Ashhen\app\src\main\AndroidManifest.xml:24:9-50
+34-->D:\Ashhen\app\src\main\AndroidManifest.xml:24:19-47
+35        <activity android:name="com.example.ashhen.MainActivity" >
+35-->D:\Ashhen\app\src\main\AndroidManifest.xml:25:9-31:20
+35-->D:\Ashhen\app\src\main\AndroidManifest.xml:25:19-47
+36            <intent-filter>
+36-->D:\Ashhen\app\src\main\AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Ashhen\app\src\main\AndroidManifest.xml:16:58-110
+37-->D:\Ashhen\app\src\main\AndroidManifest.xml:16:66-107
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->D:\Ashhen\app\src\main\AndroidManifest.xml:29:17-76
+39-->D:\Ashhen\app\src\main\AndroidManifest.xml:29:27-73
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->D:\Ashhen\app\src\main\AndroidManifest.xml:32:9-34:47
+43            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+43-->D:\Ashhen\app\src\main\AndroidManifest.xml:33:13-76
+44            android:theme="@style/AppTheme" />
+44-->D:\Ashhen\app\src\main\AndroidManifest.xml:34:13-44
+45        <activity
+45-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\03e532b30892f5736303aeb8cd6e3c72\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+46-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\03e532b30892f5736303aeb8cd6e3c72\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\03e532b30892f5736303aeb8cd6e3c72\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\03e532b30892f5736303aeb8cd6e3c72\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\91054e7fc708799983790e06ab1dfa08\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\91054e7fc708799983790e06ab1dfa08\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\wessam ahmed\.gradle\caches\transforms-2\files-2.1\91054e7fc708799983790e06ab1dfa08\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+53    </application>
+54
+55</manifest>

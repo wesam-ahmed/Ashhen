@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Services"
+        android:id="@+id/menu_services"
+        app:showAsAction="always"/>
+    <item
+        android:title="Etisalat"
+        android:id="@+id/menu_etsalat"/>
+    <item android:title="We"
+        android:id="@+id/menu_we"/>
+    <item android:title="Orange"
+        android:id="@+id/menu_orange"/>
+    <item android:title="vodafon"
+        android:id="@+id/menu_vodafon"/>
+
+
+</menu>
